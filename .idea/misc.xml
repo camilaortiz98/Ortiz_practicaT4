@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ciclo 2021-2/Videojuegos/Ortiz_sem10/app/src/main/res/drawable/ic__star_blanco.xml" value="0.2703125" />
+        <entry key="..\:/Ciclo 2021-2/Videojuegos/Ortiz_sem10/app/src/main/res/drawable/ic__star_negro.xml" value="0.2703125" />
+        <entry key="..\:/Ciclo 2021-2/Videojuegos/Ortiz_sem10/app/src/main/res/layout/activity_crear_anime.xml" value="0.25" />
+        <entry key="..\:/Ciclo 2021-2/Videojuegos/Ortiz_sem10/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Ciclo 2021-2/Videojuegos/Ortiz_sem10/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Ciclo 2021-2/Videojuegos/Ortiz_sem10/app/src/main/res/layout/animelista.xml" value="0.25416666666666665" />
+        <entry key="..\:/Ciclo 2021-2/Videojuegos/Ortiz_sem10/app/src/main/res/layout/crearanime.xml" value="0.25" />
+        <entry key="..\:/Ciclo 2021-2/Videojuegos/Ortiz_sem10/app/src/main/res/layout/main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
