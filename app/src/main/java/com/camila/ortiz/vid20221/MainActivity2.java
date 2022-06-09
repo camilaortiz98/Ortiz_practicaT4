@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
         recyclerView.setLayoutManager(manager);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://camila.free.beeceptor.com/")
+                .baseUrl("https://62a1f956cc8c0118ef5a4a78.mockapi.io/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         Servicio servicio = retrofit.create(Servicio.class);
@@ -52,7 +52,7 @@ public class MainActivity2 extends AppCompatActivity {
                 Log.e("ERROR ", String.valueOf(response.code()));
                 List<animeClass> classList = response.body();
                 Log.e("Tamanio lista ", String.valueOf(classList.size()));
-                adptador adptador = new adptador(classList);
+                adptador adptador = new adptador(classList,getApplicationContext());
                 recyclerView.setAdapter(adptador);
             }
 

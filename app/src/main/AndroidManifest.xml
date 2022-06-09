@@ -13,6 +13,9 @@
         android:theme="@style/Theme.VID20212"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".editarActivity"
+            android:exported="false" />
+        <activity
             android:name=".crearAnime"
             android:exported="false" />
         <activity

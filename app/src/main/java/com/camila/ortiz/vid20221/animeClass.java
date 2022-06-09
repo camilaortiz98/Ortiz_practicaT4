@@ -1,49 +1,48 @@
 package com.camila.ortiz.vid20221;
 
-public class animeClass {
-    String titulo;
-    String descripcion;
-    String imagen;
-    boolean estrella;
+import java.io.Serializable;
 
+public class animeClass implements Serializable {
 
-    public animeClass(String titulo, String descripcion, String imagen, boolean estrella) {
-        this.titulo = titulo;
-        this.descripcion = descripcion;
-        this.imagen = imagen;
-        this.estrella = estrella;
-    }
+    String Nombre;
+    String Descripcion;
+    String URL;
+    String id;
 
-    public String getTitulo() {
-        return titulo;
-    }
+    public animeClass() {
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
     }
 
     public String getDescripcion() {
-        return descripcion;
+        return Descripcion;
     }
 
     public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+        Descripcion = descripcion;
     }
 
-    public String getImagen() {
-        return imagen;
+    public String getNombre() {
+        return Nombre;
     }
 
-    public void setImagen(String imagen) {
-        this.imagen = imagen;
+    public void setNombre(String nombre) {
+        Nombre = nombre;
     }
 
-    public boolean isEstrella() {
-        return estrella;
+    public String getURL() {
+        return URL;
     }
 
-    public void setEstrella(boolean estrella) {
-        this.estrella = estrella;
+    public void setURL(String URL) {
+        this.URL = URL;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
 /*

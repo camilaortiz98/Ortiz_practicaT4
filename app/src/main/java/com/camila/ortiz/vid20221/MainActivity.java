@@ -27,21 +27,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button btn = findViewById(R.id.btnMostrar);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myInt = new Intent(getApplicationContext(),MainActivity2.class);
-                startActivity(myInt);
-            }
+        btn.setOnClickListener(v -> {
+            Intent myInt = new Intent(getApplicationContext(),MainActivity2.class);
+            startActivity(myInt);
         });
 
         Button btn2 = findViewById(R.id.btnCrear);
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myInt2 = new Intent(getApplicationContext(),crearAnime.class);
-                startActivity(myInt2);
-            }
+        btn2.setOnClickListener(v -> {
+            Intent myInt2 = new Intent(getApplicationContext(),crearAnime.class);
+            startActivity(myInt2);
         });
 
 
